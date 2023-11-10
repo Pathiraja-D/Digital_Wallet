@@ -1,0 +1,85 @@
+.UserCrud_body {
+  background-image: url("../../components/img/two.png"); /* Replace with your image path */
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.UserCrud_heading {
+  text-align: center;
+  padding: 20px 0px 20px; 
+  color: rgb(110, 0, 110);
+}
+
+.UserCrud_heading h1 {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.UserCrud_menu {
+  position: fixed;
+  top: 70px;
+  width: 350px;
+  height: 520px;
+  margin-left: 300px;
+  
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.8
+  ); /* Semi-transparent background for better visibility */
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.UserCrud_form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form_group {
+  margin-bottom: 10px;
+}
+
+.form_group input {
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 300px;
+}
+
+.submit_button {
+  padding: 10px 20px;
+  background-color: rgb(110, 0, 110);
+  color: #fff;
+  width: 150px;
+  height: 40px;
+  font-size: 18px;
+  font-weight: bold;
+  border-color: rgb(110, 0, 110);
+  border-radius: 10px;
+  cursor: pointer;
+  margin-left: 100px;
+}
+
+.submit_button:hover {
+  background-color: #fff;
+  color: rgb(110, 0, 110);
+  border-color: rgb(110, 0, 110);
+}
+
+.image_crud {
+  position: absolute;
+  top: 200px;
+  right: 310px;
+  height: auto;
+}
+
+.image_crud img {
+  height: 400px;
+  width: 400px;
+  border-radius: 50px;
+}

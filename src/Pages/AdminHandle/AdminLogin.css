@@ -1,0 +1,110 @@
+.hero-section1 {
+  background-image: url(../../../src/components/img/adminback.png);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  padding: 100px 0 20px;
+  height: 614px;
+}
+
+.All-Content {
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  width: 1350px;
+  margin-top: -30px;
+  margin-left: 50px;
+  height: 550px;
+}
+
+.hero-section1 > .All-Content h1 {
+  text-align: center;
+  color: black;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-decoration: underline;
+}
+
+.backbutton {
+  position: fixed;
+  right: 150px;
+  top: 100px;
+}
+
+.hero-section1 > .All-Content > .Icon-wrapper {
+  cursor: pointer;
+}
+
+.backbutton button {
+  background-color: rgba(255, 255, 255, 0.6);
+  color: black;
+  border-color: black;
+  width: 150px;
+  height: 30px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 10px;
+  font-weight: bold;
+  margin-left: 5px;
+}
+
+.SearchBar input[type="text"] {
+  width: 400px;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 15px;
+  font-size: 14px;
+  background-color: rgba(255, 255, 255, 0.6);
+  margin-left: 20px;
+}
+
+.hero-section1 > .All-Content > .tableContainer {
+  max-height: 400px;
+  overflow-y: auto;
+  position: relative;
+  margin: 20px;
+}
+
+.hero-section1 > .All-Content > .tableContainer > .table {
+  border: 2px solid black;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.table th,
+.table td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: center;
+  width: auto;
+}
+
+.table th {
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+.Edit-Delete-Button {
+  background-color: rgba(255, 255, 255, 0.6);
+  color: black;
+  border-color: black;
+  width: 100px;
+  height: 30px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 10px;
+  font-weight: bold;
+  margin-left: 5px;
+}
+
+.hero-section1 > .All-Content > .backbutton button:hover,
+.Edit-Delete-Button:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.Arrowbackbutton {
+  border: 1px solid transparent;
+  background-color: transparent;
+  cursor: pointer;
+}

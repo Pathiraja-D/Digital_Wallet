@@ -1,0 +1,32 @@
+.Homecontainer {
+  background-image: url("../../components/img/Home_page.png");
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.homebutton {
+  position: fixed;
+  bottom: 150px;
+  left: 100px;
+  background-color: purple;
+  width: 250px;
+  height: 60px;
+  border-radius: 30px;
+  font-size: 25px;
+  font-style: italic;
+  cursor: pointer;
+  border: 1px solid black;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.homebutton:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+  color: purple;
+  border: 1px solid purple;
+  letter-spacing: 2px;
+  transition: 0.5s;
+}

@@ -1,0 +1,89 @@
+.LoginPage_body {
+  background-image: url("../../components/img/two.png"); /* Replace with your image path */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Arial, sans-serif;
+  padding: 100px;
+  height: 535px;
+}
+
+.LoginPage_Heading {
+  text-align: center;
+  padding: 20px 0px 20px; /* 100px away from the top */
+  color: rgb(110, 0, 110);
+}
+
+.LoginPage_Heading h1 {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.LoginPage_menu {
+  position: fixed;
+  left: 40px;
+  top:80px;
+  width: 380px;
+  height: 400px;
+  margin-left: 250px;
+  margin-top: 70px;
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.8
+  ); /* Semi-transparent background for better visibility */
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form_group {
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+.form_group input {
+  padding: 10px;
+  border: 1px solid rgb(110, 0, 110);
+  border-radius: 20px;
+  width: 350px;
+}
+
+.submit_button {
+  padding: 10px 20px;
+  background-color: rgb(110, 0, 110);
+  color: #fff;
+  width: 150px;
+  height: 40px;
+  font-size: 18px;
+  font-weight: bold;
+  border-color: rgb(110, 0, 110);
+  border-radius: 10px;
+  cursor: pointer;
+  margin-left: 130px;
+}
+
+.submit_button:hover {
+  background-color: #fff;
+  color: rgb(110, 0, 110);
+  border-color: rgb(110, 0, 110);
+}
+
+.SignUp_infor {
+  padding: 15px;
+  align-items: center;
+}
+
+.para {
+  position: absolute;
+  top: 350px;
+  right: 300px;
+  height: auto;
+  color: beige;
+  width: 400px;
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
